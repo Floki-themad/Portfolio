@@ -1,0 +1,9 @@
+nav ul{
+    display:inline;
+    text-align: right;
+    padding-right: 10px;
+    float:right;
+    color: rebeccapurple;
+    font-size: 150%;
+
+}
