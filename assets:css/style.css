@@ -72,14 +72,34 @@ background-color: rebeccapurple;
 color:white;
 white-space: nowrap;
 }
-.tenor-gif-embed{
-  max-height: 100px;
-  max-width: 200%;
-}
+/* image location and styling */
 img{
   height:200px;
   width: 75%;
   display: center;
   margin-left:115px;
 }
+  /* main page */
+.aboutme,
+.work,
+.contactme{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width:200px;
+  padding: 20px;
+  display: center;
+  border-right:1px solid black;
+  margin-left: 20px;
+  font-size: 25px;
+}
+.column,
+.article {
+  display: flex;
+  flex-direction: column;
+
+}
+.p{
+  display: center;
+}
+.column{
   
+}
