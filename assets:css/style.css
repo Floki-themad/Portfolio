@@ -45,6 +45,10 @@ li{
 /* headshot */
 #headshot{
 padding-top: 20px;
+display: block;
+justify-items: center;
+align-items: center;
+
 }
 #img1{
 
@@ -74,6 +78,10 @@ container{
   grid-column: 2 / 4;
   display: block;
 }
+#workscheduler{
+  width:600px;
+  height: 300px;
+}
 #cardone{
   border: 5px solid #4f4a41;
   border-radius: 10px;
@@ -82,7 +90,6 @@ container{
   margin: 20px;
   grid-column-start: 2;
   grid-column-end: 4;
-
 }
 #cardtwo{
  display: flex;
@@ -93,7 +100,7 @@ container{
   margin: 20px;
   grid-column-start: 2;
   grid-column-end: 3;
-
+ 
 }
 #cardthree{
  display: flex;
@@ -113,9 +120,20 @@ a{
   height: 50px;
   width: 50px;
 }
+#name,
 #linkedin,
 #github{
   height: 50px;
   width: 50px;
+  display: block;
+  padding-left: 100px;
+
+
 }
 
+#cardone:hover,
+#cardtwo:hover,
+#cardthree:hover{
+  -webkit-box-shadow: 5px 5px 18px 15px rgba(110,102,88,0.83), 5px 5px 18px 15px rgba(110,102,88,0.83); 
+box-shadow: 5px 5px 18px 15px rgba(110,102,88,0.83), 5px 5px 18px 15px rgba(110,102,88,0.83);
+}
